@@ -12,6 +12,8 @@ Normally the OS sends both connections through the same default route and interf
 1. `getaddrinfo()`: watches DNS queries for `prod-cf-*` and `prod-lb-*` and saves the resolved IPv4 addresses.
 2. `connect()`: intercepts outgoing connections to port `7171` and binds each socket to the matching network interface with `SO_BINDTODEVICE` (`prod-cf-*` goes to `--primary`, `prod-lb-*` goes to `--secondary`). If an IP wasn't seen in DNS, it alternates between both interfaces.
 
+https://github.com/user-attachments/assets/c70a8c35-06da-4f6d-a7bd-e6056819b40d
+
 ## Build
 
 ```bash
