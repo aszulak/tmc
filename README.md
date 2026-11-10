@@ -14,6 +14,25 @@ Normally the OS sends both connections through the same default route and interf
 
 https://github.com/user-attachments/assets/c70a8c35-06da-4f6d-a7bd-e6056819b40d
 
+
+## Tibia ToS
+
+Response from the Tibia support regarding whenever this app is allowed to use.
+
+>Hello,
+>
+>Thank you for your message. I understand that you're worried that your account will be punished if you implement your own tool.
+>
+>I'm afraid I cannot fully greenlight your project. Personally, I don't expect it to cause problems, but then again, please understand that you lose all rights to support if you experience problems >with the Tibia client due to using an external program - even if the program on paper acts according to the Tibia Rules.
+>
+>If you have other concerns, please feel free to contact me.
+>
+>
+>Kind regards,  
+>XXX  
+>CipSoft Tech Support  
+
+
 ## Build
 
 ```bash
